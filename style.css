@@ -71,11 +71,28 @@ nav {
 
 /* DIV */
 
-div.intro {
+div.wrapper {
     background-color: clear;
     opacity: 80%;
-    width: 70%;
+    width: 80%;
     margin: auto;
+    overflow: hidden;
+}
+
+.header{
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+.description {
+  /* float: left; */
+  margin: 2px;
+  overflow: hidden;
+
+}
+.description ul li{
+  float: left;
+  overflow: hidden;
 }
 
 p {
