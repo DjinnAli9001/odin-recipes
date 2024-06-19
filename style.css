@@ -1,7 +1,7 @@
 /* GLOBAL */
 
 body{
-    /*background: #003153;*/
+    background: #081214;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     /* background: url('./Images/cat-background.jpg') no-repeat center center fixed; */
     background-size: cover;
@@ -12,6 +12,10 @@ header{
     opacity: 90%;
     text-align: center;
     color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
 }
 
 img {
@@ -78,6 +82,9 @@ p {
   color: white;
 }
 
+li{
+  color: white;
+}
 a {
   color: orange;
   text-decoration: none;
