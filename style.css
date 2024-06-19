@@ -77,11 +77,22 @@ div.wrapper {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    line-height: 1.75;
+    border-bottom-style:groove;
+    border-bottom-color:teal;
+       
 }
+
+.titlepic {
+  display: block;
+  text-align: center;
+}
+
 
 .header{
   float: left;
   margin: 0px 20px 0px 0px;
+  text-decoration: underline;
 }
 
 .description {
@@ -92,7 +103,6 @@ div.wrapper {
 }
 .description ul li{
   float: left;
-  overflow: hidden;
 }
 
 p {
