@@ -23,6 +23,9 @@ img {
   height: 20%; 
 }
 
+
+
+
 /*NAV BAR*/
 
 nav {
@@ -71,21 +74,26 @@ nav {
 
 /* DIV */
 
-div.wrapper {
-    background-color: clear;
-    opacity: 80%;
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    line-height: 1.75;
-    border-bottom-style:groove;
-    border-bottom-color:teal;
-       
+/*Understanding Flex*/
+.container{
+  display: flex;
+  opacity: 90%;
+  padding: 12px;
+  width: 80%;
+  line-height: 1.75;
+  background-color: clear;
+  margin: auto;
+  border-bottom-style:groove;
+  border-bottom-color:teal;
+  justify-content: space-around;
 }
 
-.titlepic {
-  display: block;
-  text-align: center;
+
+.title-pic {
+  display: flex;
+  /* align-items: center; */
+  margin: auto;
+  /* background-color: orange; */
 }
 
 
@@ -98,7 +106,8 @@ div.wrapper {
 .description {
   /* float: left; */
   margin: 2px;
-  overflow: hidden;
+  flex: 1;
+  
 
 }
 .description ul li{
